@@ -34,7 +34,7 @@ public class UpdateTest {
 
 		Calendar c = Calendar.getInstance();
 		java.sql.Timestamp t = new java.sql.Timestamp(c.getTime().getTime());
-		String a = "ok new message." + t.toString() ;
+		String a = "ok new message." + t.toString();
 		facebook.postStatusMessage(a);
 		
 		return "Successful:";
